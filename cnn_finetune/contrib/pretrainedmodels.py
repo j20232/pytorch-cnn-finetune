@@ -1,9 +1,10 @@
 import torch
 from torch import nn
 from torch.utils import model_zoo
-import pretrainedmodels
-from pretrainedmodels.models.dpn import adaptive_avgmax_pool2d
-from pretrainedmodels.models.xception import Xception, pretrained_settings as xception_settings
+
+import local_pretrainedmodels as pretrainedmodels
+from local_pretrainedmodels.models.dpn import adaptive_avgmax_pool2d
+from local_pretrainedmodels.models.xception import Xception, pretrained_settings as xception_settings
 
 from cnn_finetune.base import ModelWrapperBase, ModelInfo
 
