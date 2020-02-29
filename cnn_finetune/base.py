@@ -6,8 +6,8 @@ import warnings
 import torch
 from torch import nn
 
-from cnn_finetune.shims import no_grad_variable
-from cnn_finetune.utils import default, product
+from .shims import no_grad_variable
+from .utils import default, product
 
 
 ModelInfo = namedtuple(

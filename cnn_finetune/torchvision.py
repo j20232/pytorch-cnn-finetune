@@ -1,8 +1,8 @@
 from torch import nn
 from torchvision import models as torchvision_models
 
-from cnn_finetune.base import ModelWrapperBase, ModelInfo
-from cnn_finetune.utils import default
+from .base import ModelWrapperBase, ModelInfo
+from .utils import default
 
 
 __all__ = [
