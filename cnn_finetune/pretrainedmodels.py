@@ -3,8 +3,8 @@ from torch import nn
 from torch.utils import model_zoo
 
 from .local_pretrainedmodels import pretrainedmodels
-from .local_pretrainedmodels.models.dpn import adaptive_avgmax_pool2d
-from .local_pretrainedmodels.models.xception import Xception, pretrained_settings as xception_settings
+from .local_pretrainedmodels.pretrainedmodels.models.dpn import adaptive_avgmax_pool2d
+from .local_pretrainedmodels.pretrainedmodels.models.xception import Xception, pretrained_settings as xception_settings
 
 from .base import ModelWrapperBase, ModelInfo
 
