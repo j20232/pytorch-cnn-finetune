@@ -1,0 +1,3 @@
+[submodule "cnn_finetune/local_pretrainedmodels"]
+	path = cnn_finetune/local_pretrainedmodels
+	url = https://github.com/Cadene/pretrained-models.pytorch.git
